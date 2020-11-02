@@ -33,8 +33,8 @@ module Airtable
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
-    config.airtable_api_key = 'keyMYf1TGyChfY0Wk'
-    config.airtable_app_key = 'appKLObGhOJ0zLCOu'
+    config.airtable_api_key = 'dddddd'
+    config.airtable_app_key = 'dddd'
     config.after_initialize do
       Rails.application.load_tasks # <---
       Rake::Task['airtable:rest'].invoke
